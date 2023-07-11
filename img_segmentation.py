@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 import matplotlib.pyplot as plt
 
-image = cv2.imread("/home/laal/PROJECTS/practice/imagesegmentation/candy.jpg")
+image = cv2.imread("candy.jpg")
 
 hsv_image= cv2.cvtColor(image,cv2.COLOR_BGR2HSV)
 lower_limit = np.array([50, 80, 20])
